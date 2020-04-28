@@ -14,8 +14,8 @@ Green ball helps you to gain one life.
 
 Red-Blue ball makes red ball smaller.
 
-    Whenever score increase 5 point last brown ball you touched will get smaller
-    Whenever score increase 10 point all balls will get faster.
+    Whenever score increase 5 point, last brown ball you touched will get smaller
+    Whenever score increase 10 point, all balls will get faster.
     After losing 2 life and if you don't have extra lifes the game will end.
 
 ![IMG_20200428_110629](https://user-images.githubusercontent.com/26170070/80463865-93933880-8941-11ea-9a50-70def2543313.jpg)
