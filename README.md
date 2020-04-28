@@ -16,7 +16,7 @@ Red-Blue ball makes red ball smaller.
 
     Whenever score increase 5 point last brown ball you touched will get smaller
     Whenever score increase 10 point all balls will get faster.
-    After losing 2 life point and don't have extra life the game will end.
+    After losing 2 life and if you don't have extra lifes the game will end.
 
 ![IMG_20200428_110629](https://user-images.githubusercontent.com/26170070/80463865-93933880-8941-11ea-9a50-70def2543313.jpg)
 ![IMG_20200428_110642](https://user-images.githubusercontent.com/26170070/80464220-28963180-8942-11ea-8eea-43484aeb2793.jpg)
