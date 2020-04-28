@@ -9,9 +9,9 @@ The gameh helps to improve your hand ability and eye tracking
 
 Brown ball gives you some points.
 
-Red ball take your one life.
+Red ball takes your one life.
 
-Green ball help you to gain one life.
+Green ball helps you to gain one life.
 
 Red-Blue ball makes red ball smaller.
 
