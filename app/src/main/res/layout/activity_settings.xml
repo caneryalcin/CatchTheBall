@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_round"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="24dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <ImageView
+        android:id="@+id/cancelImageView"
+        android:layout_width="37dp"
+        android:layout_height="67dp"
+        android:src="@drawable/cancel"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <CheckBox
+        android:id="@+id/ballSoundsCheckBox"
+        android:layout_width="201dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Coin Sounds"
+        app:layout_constraintTop_toBottomOf="@+id/backgroundSoundCheckBox"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        android:textColor="@color/colorWhite"
+        android:buttonTint="@color/colorWhite"/>
+
+    <CheckBox
+        android:id="@+id/backgroundSoundCheckBox"
+        android:layout_width="201dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="96dp"
+        android:text="Background Sound"
+        app:layout_constraintTop_toBottomOf="@+id/cancelImageView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        android:textColor="@color/colorWhite"
+        android:buttonTint="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/easyModeButton"
+        style="@style/ButtonBorder.Accent"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Easy Mode"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mediumModeButton"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Medium Mode"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ButtonBorder.Accent"
+        />
+
+    <Button
+        android:id="@+id/hardModeButton"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Hard mode"
+        android:textSize="14dp"
+        style="@style/ButtonBorder.Accent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.969"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
