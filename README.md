@@ -1,7 +1,16 @@
 # CatchTheBall
 
-This project is a game application.
+Check my game application.
 
+Basically purpose of the game is catching brown balls and get some points.
+There are 4 balls.
+
+Brown ball gives you some points.
+Red ball take your one life.
+Green ball help you to gain one life.
+Red-Blue ball makes red ball smaller.
+
+Whenever score increase 5 point last brown ball you touch will get smaller
 
 ![IMG_20200428_110629](https://user-images.githubusercontent.com/26170070/80463865-93933880-8941-11ea-9a50-70def2543313.jpg)
 ![IMG_20200428_110642](https://user-images.githubusercontent.com/26170070/80464220-28963180-8942-11ea-8eea-43484aeb2793.jpg)
