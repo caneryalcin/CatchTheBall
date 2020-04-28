@@ -6,10 +6,13 @@ Basically purpose of the game is catching brown balls and get some points.
 
 There are 4 balls.
 
---Brown ball gives you some points.
---Red ball take your one life.
---Green ball help you to gain one life.
---Red-Blue ball makes red ball smaller.
+Brown ball gives you some points.
+
+Red ball take your one life.
+
+Green ball help you to gain one life.
+
+Red-Blue ball makes red ball smaller.
 
 Whenever score increase 5 point last brown ball you touch will get smaller
 
