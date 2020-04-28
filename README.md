@@ -4,7 +4,7 @@ Check my game application.
 
 Basically purpose of the game is catching brown balls and get some points.
 
-There are 4 balls.
+## There are 4 balls.
 
 Brown ball gives you some points.
 
