@@ -1,7 +1,5 @@
 # CatchTheBall
 
-Check my game application.
-
 Purpose of the game is catching brown balls and get some points and making best score of the game.
 
 The game helps to improve your hand ability and eye tracking
